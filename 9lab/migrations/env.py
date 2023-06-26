@@ -25,7 +25,7 @@ if config.config_file_name is not None:
 # for 'autogenerate' support
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
-from app.models import *  # noqa
+from app.models import Employee, Position, Division, Job  # noqa
 
 target_metadata = Base.metadata
 
